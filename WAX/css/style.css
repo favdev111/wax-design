@@ -1,0 +1,25 @@
+/* basic setting */
+body {
+    color: white;
+    font-size: 16px;
+}
+/* header */
+.nav-header {
+    background-color: #191F28;
+    padding: 10px 0;
+}
+.nav-right-item {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+}
+.nav-right-item li:first-child {
+    padding-right: 15px;
+}
+.mobile-nav-logo {
+    width: 54px;
+    height: 50px;
+}
+
+/* homepage */
+

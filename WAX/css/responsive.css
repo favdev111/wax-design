@@ -1,0 +1,42 @@
+/*==========================
+tab rotate 
+===========================*/
+@media (min-width: 1200px){
+    .container {
+        max-width: 1400px;
+    }
+}
+
+  /*==========================
+  tab device 
+  ===========================*/
+@media (min-width:992px) and (max-width:1200px) {
+
+}
+
+@media (max-width:991px) {
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+}
+
+
+  /*==========================
+  small device /mobile sm and large
+  ===========================*/
+@media (max-width:767px) {
+
+}
+@media (max-width:550px) {
+
+}
+@media (max-width:480px) {
+    .nav-right-item {
+        font-size: 13px;
+    }
+}
+@media (max-width:320px) {
+
+}
