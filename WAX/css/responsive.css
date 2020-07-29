@@ -5,10 +5,13 @@ tab rotate
    .features-curve-img {
        display: none;
    }
+   .body-features-content {
+       min-width: unset;
+   }
 }
 @media (min-width: 1200px){
     .container {
-        max-width: 1800px;
+        max-width: 1600px;
     }
 }
 
@@ -22,6 +25,11 @@ tab rotate
 @media (max-width:991px) {
     .Features-items-wrap {
         display: block;
+    }
+    .feature-card {
+        width: unset;
+        margin: auto;
+        margin-bottom: 30px;
     }
     .testimonials-card-wrap {
         display: block !important;
