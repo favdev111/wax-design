@@ -175,3 +175,12 @@ a:hover {
 .token-features {
     display: flex;
 }
+
+/* refer page */
+.token-features-img img {
+    border: 1px solid #FF886D;
+    border-radius: 20px;
+}
+.token-features-img {
+    padding: 60px 0;
+}

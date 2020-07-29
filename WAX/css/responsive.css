@@ -13,6 +13,10 @@ tab rotate
     .container {
         max-width: 1600px;
     }
+    .refer-intro {
+        max-width: 1200px;
+        margin: auto;
+    }
 }
 
   /*==========================
@@ -49,7 +53,7 @@ tab rotate
 }
 @media (max-width:550px) {
     .download-btn {
-        width: 70%;
+        width: 90%;
     }
 }
 @media (max-width:480px) {
