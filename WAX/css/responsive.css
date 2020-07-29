@@ -23,6 +23,9 @@ tab rotate
     .Features-items-wrap {
         display: block;
     }
+    .testimonials-card-wrap {
+        display: block !important;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -44,5 +47,11 @@ tab rotate
 @media (max-width:480px) {
     .nav-right-item {
         font-size: 13px;
+    }
+    .full-support-wrap img {
+        width: 80%;
+    }
+    h1 {
+        font-size: 28px;
     }
 }

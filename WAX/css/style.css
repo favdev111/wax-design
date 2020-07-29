@@ -128,3 +128,30 @@ footer {
 .body-nft {
     padding: 120px 0;
 }
+.testimonial-card {
+    background-color: #222B3A;
+    border-radius: 15px;
+    max-width: 311px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.testimonial-card img {
+    width: 50px;
+    height: 50px;
+}
+.body-testimonials {
+    padding: 120px 0 300px 0;
+    background-image: url('../images/testimanial-left.png');
+    background-repeat: no-repeat;
+    background-position: -447px 0;
+}
+.testimonial-card-body {
+    font-size: 24px;
+    padding-bottom: 45px;
+    padding-top: 15px;
+}
+.body-testimonials-container {
+    max-width: 1400px;
+    margin: auto;
+}
