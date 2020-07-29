@@ -1,9 +1,14 @@
 /*==========================
 tab rotate 
 ===========================*/
+@media (max-width: 1450px){
+   .features-curve-img {
+       display: none;
+   }
+}
 @media (min-width: 1200px){
     .container {
-        max-width: 1400px;
+        max-width: 1800px;
     }
 }
 
@@ -15,7 +20,9 @@ tab rotate
 }
 
 @media (max-width:991px) {
-
+    .Features-items-wrap {
+        display: block;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -30,13 +37,12 @@ tab rotate
 
 }
 @media (max-width:550px) {
-
+    .download-btn {
+        width: 70%;
+    }
 }
 @media (max-width:480px) {
     .nav-right-item {
         font-size: 13px;
     }
-}
-@media (max-width:320px) {
-
 }

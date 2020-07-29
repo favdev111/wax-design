@@ -2,10 +2,15 @@
 body {
     color: white;
     font-size: 16px;
+    background-color: #191F28;
     /* font-family: Montserrat; */
 }
 footer {
     background-color: #222B3A;
+}
+
+.font-20 {
+    font-size: 20px !important;
 }
 /* header */
 .nav-header {
@@ -24,7 +29,11 @@ footer {
     width: 54px;
     height: 50px;
 }
-/* fotter */
+/* footer */
+footer {
+    border-top-left-radius: 95px;
+    border-top-right-radius: 95px;
+}
 .footer-email-form {
     width: 280px;
     margin: auto;
@@ -78,4 +87,44 @@ footer {
     margin-right: 5px;
 }
 /* homepage */
-
+.body-introduction {
+    padding: 80px 0;
+}
+.body-features {
+    display: flex;
+}
+.Features-items-wrap {
+    display: flex;
+}
+.feature-card {
+    text-align: center;
+    max-width: 400px;
+}
+.features-hr-img {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.card-description {
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.full-support-wrap {
+    text-align: center;
+    padding: 70px 0;
+}
+.features-curve-img {
+    width: 100%;                        
+}
+.apps-description {
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.body-apps, .body-staking {
+    background-image: url('../images/apps-right.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 120px 0;
+}
+.body-nft {
+    padding: 120px 0;
+}
